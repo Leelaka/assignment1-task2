@@ -1,0 +1,40 @@
+body{
+    background-color: #f7abae;
+}
+
+#map { 
+    height: 500px; 
+    width: 700px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px 30px 10px 30px;
+    background-color: #fae4e5;
+    border: 1px solid #d39698;
+    
+}
+
+label{
+    color: rgb(39, 39, 39);
+    font-size: 16px;
+    
+}
+
+input{
+    color: rgb(39, 39, 39);
+    font-size: 16px;
+}
+
+::placeholder{
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(110, 110, 110);
+}
