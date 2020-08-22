@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
   <title>Assignment 1 Uber Web Application</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <!-- Load Leaflet from CDN -->
@@ -46,22 +45,21 @@
       </nav>
       <br>
     <div class="container">
-        <div id="mapid"></div> <!--leaflet map-->
+      <p id="timer"></p>
     </div>
-    <br><br>
+    <br>
     <div class="container">
-    <p id="timer"></p>
     <div id="map" style="width: 700px; height: 500px;"></div><br><br>
     </div>
     <div class="container"> <!--Search form for the destination and current address-->
       <form>
         <br><br>
           <label for="CurrentAd"><strong>Current Address</strong></label>
-          <input type="text" id="currentAddress" name="CurrentAddress" placeholder="Enter Address"><br><br>
+          <input type="text" id="currentAddress" name="CurrentAddress" placeholder="Enter Address" value="Boxhill Central"><br><br>
           <label for="DestiAd"><strong>Destination Address</strong></label>
           <input type="text" id="destinationAddress" name="DestinationAddress" placeholder="Enter Address"><br><br>
           <div class="container">
-              <button id="enter" class="button"><strong>find me a ride</strong></button>
+              <input type="button" id="enter" class="button" value="Find me a ride"> </input>
           </div> 
       </form>
   </div>

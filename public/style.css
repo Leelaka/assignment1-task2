@@ -15,7 +15,7 @@ body{
     justify-content: center;
 }
 
-.button{
+#enter{
     padding: 10px 30px 10px 30px;
     background-color: #fae4e5;
     border: 1px solid #d39698;
@@ -37,4 +37,13 @@ input{
     font-style: italic;
     font-size: 10px;
     color: rgb(110, 110, 110);
+}
+
+p{
+    font-size: 30px;
+    padding: 10px 60px 10px 60px;
+    margin: 0px;
+    color: black;
+    background-color: #fae4e5;
+    
 }
